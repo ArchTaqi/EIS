@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#555" >
+
+    <GridLayout
+        android:id="@+id/gridLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="120dip"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="1dip"
+        android:layout_marginRight="1dip"
+        android:layout_marginTop="1dip"
+        android:background="#000000"
+        android:columnCount="4"
+        android:rowCount="3" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="233dip"
+            android:layout_height="36dip"
+            android:layout_column="0"
+            android:layout_gravity="left|top"
+            android:layout_row="0"
+            android:background="#000000"
+            android:text="Charity Dinner"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#FFFFFF" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="298dp"
+            android:layout_height="60dip"
+            android:layout_column="0"
+            android:layout_columnSpan="1"
+            android:layout_gravity="left|center_vertical"
+            android:layout_marginTop="2dip"
+            android:layout_row="1"
+            android:scaleType="fitXY"
+            android:src="@drawable/imrankhan" />
+
+        <DigitalClock
+            android:id="@+id/digitalClock1"
+            android:layout_width="50dip"
+            android:layout_height="36dip"
+            android:layout_column="0"
+            android:layout_gravity="right|top"
+            android:layout_marginRight="1dip"
+            android:layout_row="0"
+            android:background="#000000"
+            android:gravity="left"
+            android:text="DigitalClock"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="match_parent"
+            android:layout_column="0"
+            android:layout_gravity="left|top"
+            android:layout_row="2"
+            android:background="#000000"
+            android:textColor="#FFFFFF"
+            android:text="Event Details "
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    </GridLayout>
+
+    <GridLayout
+        android:id="@+id/gridLayout2"
+        android:layout_width="fill_parent"
+        android:layout_height="180dip"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/gridLayout1"
+        android:layout_marginLeft="1dip"
+        android:layout_marginRight="1dip"
+        android:layout_marginTop="1dip"
+        android:background="#000000"
+        android:rowCount="9"
+        android:columnCount="2" >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_column="0"
+            android:textColor="#FFFFFF"
+            android:layout_gravity="left|top"
+            android:layout_row="0"
+            android:layout_marginLeft="20dip"
+            android:text="Start Date" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_column="0"
+            android:textColor="#FFFFFF"
+            android:layout_gravity="left|top"
+            android:layout_row="1"
+            android:layout_marginLeft="20dip"
+            android:text="End Date" />
+        
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_column="0"
+            android:textColor="#FFFFFF"
+            android:layout_gravity="left|top"
+            android:layout_row="2"
+            android:layout_marginLeft="20dip"
+            android:text="Start Time" />
+         <TextView
+            android:id="@+id/textView5"
+            android:layout_column="0"
+            android:textColor="#FFFFFF"
+            android:layout_gravity="left|top"
+            android:layout_row="3"
+            android:layout_marginLeft="20dip"
+            android:text="End Time" />
+          <TextView
+            android:id="@+id/textView6"
+            android:layout_column="0"
+            android:textColor="#FFFFFF"
+            android:layout_gravity="left|top"
+            android:layout_row="4"
+            android:layout_marginLeft="20dip"
+            android:text="Web Site" />
+          <TextView
+            android:id="@+id/textView7"
+            android:layout_column="0"
+            android:layout_gravity="left|top"
+            android:layout_row="5"
+            android:layout_marginLeft="20dip"
+            android:textColor="#FFFFFF"
+            android:text="Venue" />
+           <TextView
+            android:id="@+id/textView8"
+            android:layout_column="0"
+            android:layout_gravity="left|top"
+            android:layout_row="6"
+            android:layout_marginLeft="20dip"
+            android:textColor="#FFFFFF"
+            android:text="Adress" />
+           <TextView
+            android:id="@+id/textView9"
+            android:layout_column="0"
+            android:textColor="#FFFFFF"
+            android:layout_gravity="left|top"
+            android:layout_row="7"
+            android:layout_marginLeft="20dip"
+            android:text="City" />
+
+           <TextView
+            android:id="@+id/textView10"
+            android:layout_column="0"
+            android:layout_gravity="left|top"
+            android:layout_row="8"
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="20dip"
+            android:text="Contact No" />
+           
+           
+           <!-- second column -->
+           
+             <TextView
+            android:id="@+id/textView11"
+            android:layout_column="1"
+            android:layout_gravity="left|top"
+            android:layout_row="0"
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="50dip"
+            android:text="Day/date/month/year" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_column="1"
+            android:layout_gravity="left|top"
+            android:layout_row="1"
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="50dip"
+            android:text="Day/date/month/year" />
+        
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_column="1"
+            android:layout_gravity="left|top"
+            android:layout_row="2"
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="50dip"
+            android:text="Start Time" />
+         <TextView
+            android:id="@+id/textView14"
+            android:layout_column="1"
+            android:layout_gravity="left|top"
+            android:layout_row="3"
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="50dip"
+            android:text="End Time" />
+          <TextView
+            android:id="@+id/textView15"
+            android:layout_column="1"
+            android:layout_gravity="left|top"
+            android:layout_row="4"
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="50dip"
+            android:text="www.google.com" />
+          <TextView
+            android:id="@+id/textView16"
+            android:layout_column="1"
+            android:layout_gravity="left|top"
+            android:layout_row="5"
+            android:textColor="#FFFFFF"
+            android:layout_marginLeft="50dip"
+            android:text="Convention Centre" />
+           <TextView
+            android:id="@+id/textView17"
+            android:layout_column="1"
+            android:textColor="#FFFFFF"
+            android:layout_gravity="left|top"
+            android:layout_row="6"
+            android:layout_marginLeft="50dip"
+            android:text="Murree Road near lake view near serina hotal islamabad" />
+           <TextView
+            android:id="@+id/textView18"
+            android:layout_column="1"
+            android:layout_marginLeft="50dip"
+            android:layout_gravity="left|top"
+            android:textColor="#FFFFFF"
+            android:layout_row="7"
+            android:text="ISlamabad" />
+
+           <TextView
+            android:id="@+id/textView19"
+            android:layout_column="1"
+            android:layout_marginLeft="50dip"
+            android:layout_gravity="left|top"
+            android:layout_row="8"
+            android:textColor="#FFFFFF"
+            android:text="03340444453" />
+           
+           
+           
+    </GridLayout>
+
+    <GridLayout
+        android:id="@+id/gridLayout3"
+        android:layout_width="fill_parent"
+        android:layout_height="80dip"
+        android:layout_alignLeft="@+id/gridLayout2"
+        android:layout_below="@+id/gridLayout2"
+        android:layout_marginLeft="1dip"
+        android:layout_marginRight="1dip"
+        android:layout_marginTop="1dip"
+        android:background="#000000"
+        android:columnCount="3" 
+        android:rowCount="2">
+           
+         
+
+          <TextView
+              android:id="@+id/textView22"
+              android:layout_width="match_parent"
+              android:layout_column="0"
+              android:layout_gravity="left|top"
+              android:layout_row="0"
+              android:text="Speaker"
+              android:textColor="#FFFFFF" 
+              android:textAppearance="?android:attr/textAppearanceMedium"/>
+           <ImageView
+              android:id="@+id/imageView2"
+              android:layout_width="287dp"
+              android:layout_height="60dip"
+              android:layout_column="0"
+              android:layout_gravity="left|center_vertical"
+              android:layout_marginTop="2dip"
+              android:layout_row="1"
+              android:src="@drawable/imrankhan" 
+              
+              />
+
+    </GridLayout>
+
+    <GridLayout
+        android:id="@+id/gridLayout4"
+        android:layout_width="fill_parent"
+        android:layout_height="100dip"
+        android:layout_alignLeft="@+id/gridLayout3"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/gridLayout3"
+        android:layout_marginLeft="0dip"
+        android:layout_marginRight="1dip"
+        android:layout_marginTop="1dip"
+        android:background="#000000"
+android:rowCount="2"
+        android:columnCount="1" >
+
+        <TextView
+                android:id="@+id/textView23"
+                android:layout_width="fill_parent"
+                android:layout_height="20dip"
+                android:textColor="#FFFFFF"
+                android:text="Info of Event"
+                android:layout_row="0"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                
+                />
+        <ScrollView
+            android:id="@+id/scrollView1"
+            android:layout_column="0"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_gravity="left|top"
+            android:layout_row="1" >
+
+          <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#FFFFFF"
+                android:text="This is a view in wich scrolling is enabled so to view an event we can scroll and see what is written in different lines.the details of event will be stored in it.The description of events its pros and cons and its attributes etc.etc.This is a view in wich scrolling is enabled so to view an event we can scroll and see what is written in different lines.the details of event will be stored in it.The description of events its pros and cons and its attributes etc.etc. This is a view in wich scrolling is enabled so to view an event we can scroll and see what is written in different lines.the details of event will be stored in it.The description of events its pros and cons and its attributes etc.etc.This is a view in wich scrolling is enabled so to view an event we can scroll and see what is written in different lines.the details of event will be stored in it.The description of events its pros and cons and its attributes etc.etc.This is a view in wich scrolling is enabled so to view an event we can scroll and see what is written in different lines.the details of event will be stored in it.The description of events its pros and cons and its attributes etc.etc.This is a view in wich scrolling is enabled so to view an event we can scroll and see what is written in different lines.the details of event will be stored in it.The description of events its pros and cons and its attributes etc.etc.This is a view in wich scrolling is enabled so to view an event we can scroll and see what is written in different lines.the details of event will be stored in it.The description of events its pros and cons and its attributes etc.etc.This is a view in wich scrolling is enabled so to view an event we can scroll and see what is written in different lines.the details of event will be stored in it.The description of events its pros and cons and its attributes etc.etc.This is a view in wich scrolling is enabled so to view an event we can scroll and see what is written in different lines.the details of event will be stored in it.The description of events its pros and cons and its attributes etc.etc.This is a view in wich scrolling is enabled so to view an event we can scroll and see what is written in different lines.the details of event will be stored in it.The description of events its pros and cons and its attributes etc.etc." />
+           
+        </ScrollView>
+    </GridLayout>
+
+</RelativeLayout>

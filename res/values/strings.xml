@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <string name="app_name">EIS</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    
+    <string name="Button_fragment_notification_comment">Comment</string>
+    <string name="Button_fragment_notification_Like">Like</string> 
+   
+    
+    <style name="Textview_style">
+       
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">20sp</item>
+    
+    </style>
+    
+    <style name="Button_Style">
+        
+        <item name="android:foreground">#FFF</item>
+        <item name="android:textColor">#FFF</item>
+        <item name="android:background">#000</item>
+    </style>
+
+      <style name="Layout_Style">
+          <item name="android:background">#888</item>
+          
+          
+       </style> 
+       
+      
+      <!--  Description of Candidaetes/constituencies -->
+       <string-array name="Candidate_Description">
+      <item>MQM</item>
+        <item>PPP</item>
+        <item>PML-N</item>
+        <item>PML-Q</item>
+        <item>PML-F</item>
+        <item>Jamet-e-Islami</item>
+        <item>PTI</item>
+        <item>Anp</item>
+        <item >Blochistan Awami Mili Party</item>
+        <item >Pakistan democratic party</item>
+        <item >Jsqm</item>
+        <item >jsmm</item>
+        <item >jamhori watan party</item>
+        <item >Qaumi watan party(qwp)</item>
+         <item >National people party(NPP)</item>       
+        <item >Party16</item>
+        <item >Party-17</item>
+        <item >Party-18</item>
+        <item >Party-19</item>
+        <item >Party-20</item>
+        <item >Party-21</item>
+        <item >Party-22</item>
+        <item >Party-23</item>
+
+       </string-array>
+       
+      <!-- lIST OF THE CAndidate NAMES/TITTLES --> 
+       <string-array name="Cand_tittle">
+        <item >Candidate-1</item>
+        <item >Candidate-2</item>
+        <item >Candidate-3</item>
+        <item >Candidate-4</item>
+        <item>Candidate-5</item>
+        <item>Candidate-6</item>
+        <item >Candidate-7</item>
+        <item >Candidate-8</item>
+        <item >Candidate-9</item>
+        <item >Candidate-10</item>
+        <item >Candidate-11</item>
+        <item >Candidate-12</item>
+        <item >Candidate-13</item>
+        <item >Candidate-14</item>
+         <item >Candidate-15</item>       
+        <item >Candidate16</item>
+        <item >Candidate-17</item>
+        <item >Candidate-18</item>
+        <item >Candidate-19</item>
+        <item >Candidate-20</item>
+        <item >Candidate-21</item>
+        <item >Candidate-22</item>
+        <item >Candidate-23</item>
+        
+    </string-array>
+      <!-- lIST OF THE CONSTITUENCY NAMES/TITTLES --> 
+    <string-array name="NA_Tittle">
+        <item >Peshawar-1</item>
+        <item >Peshawar-2</item>
+        <item >Peshawar-3</item>
+        <item >Peshawar-4</item>
+        <item>Nowshera-1</item>
+        <item>Nowshera-2</item>
+        <item >Charsadda-1</item>
+        <item >Charsadda-2</item>
+        <item >Mardan-1</item>
+        <item >Mardan-2</item>
+        <item >Sawabi-1</item>
+        <item >Sawabi-2</item>
+        <item >Kohat</item>
+        <item >Karak</item>
+         <item >Hangu</item>       
+        <item >Abbottabad-1</item>
+        <item >Abbottabad-2</item>
+        <item >Haripur</item>
+        <item >MAnshera-1</item>
+        <item >MAnshera-2</item>
+            
+    </string-array>
+    
+    <string-array name="PA_tittle">
+        <item >Rawalpindi-1</item>
+        <item >Rawalpindi-2</item>
+        <item >Rawalpindi-3</item>
+        <item >Rawalpindi-4</item>
+        <item>Rawalpindi-5</item>
+        <item>Rawalpindi-6</item>
+        <item >Rawalpindi-7</item>
+        <item >Rawalpindi-8</item>
+        <item >Rawalpindi-9</item>
+        <item >Rawalpindi-10</item>
+        <item >Rawalpindi-11</item>
+        <item >Rawalpindi-12</item>
+        <item >Rawalpindi-13</item>
+        <item >Rawalpindi-14</item>
+         <item >Attock-1</item>       
+        <item >Attock-2</item>
+        <item >Attock-3</item>
+        <item >Attock-4</item>
+        <item >Attock-5</item>
+        <item >Chakwal-1</item>
+        <item >Chakwal-2</item>
+        <item >Chakwal-3</item>
+        <item >Chakwal-4</item>
+        
+    </string-array>
+    <string-array name="SA_tittle">
+   
+           <item >Sukkur-1</item>
+        <item >Sukkur-cum-shikarpur(old Shukkur-2)</item>
+        <item >Sukkur-2(old Shukkur-3)</item>
+        <item >Sukkur-3(old Shukkur-4)</item>
+        <item>Ghotki-1</item>
+        <item>Ghotki-2</item>
+        <item >Ghotki-3</item>
+        <item >Ghotki-4</item>
+        <item >Ghotki-5</item>
+        <item >Ghotki-6</item>
+        <item >Shikarpur-cum-Larkana(old Shikarpur-1)</item>
+        <item >Shikarpur-cum-Larkana(old Shikarpur-2)</item>
+        <item >Shikarpur-1(old Shikarpur-3)</item>
+        <item >Shikarpur-2(old Shikarpur-4)</item>
+         <item >Jacobabad-1</item>       
+        <item >Jacobabad-2</item>
+        <item >Jacobabad-3</item>
+        <item >Jacobabad-cum-Kashmore(old Jacobabad4)</item>
+        <item >Kashmore1(old Jacobabad5)</item>
+        <item >Kashmore2(old Jacobabad6)</item>
+        <item >Naushero Feroze-1</item>
+        <item >Naushero Feroze-2</item>
+        <item >Naushero Feroze-3</item>
+          <item >Naushero Feroze-4</item>
+            <item >Naushero Feroze-5</item>
+        
+    </string-array>
+    <string-array name="KPK_tittle" >
+        <item >Peshawar-1</item>
+        <item >Peshawar-2</item>
+        <item >Peshawar-3</item>
+        <item >Peshawar-4</item>
+        <item >Peshawar-5</item>
+        <item >Peshawar-6</item>
+        <item >Peshawar-7</item>
+        <item >Peshawar-8</item>
+        <item >Peshawar-9</item>
+        <item >Peshawar-10</item>
+        <item >Peshawar-11</item>
+        <item >Nowshera-1</item>
+        <item >Nowshera-2</item>
+        <item >Nowshera-3</item>
+        <item >Nowshera-4</item>
+        <item >Nowshera-5</item>
+        <item >Charsadda-1</item>
+        <item >Charsadda-2</item>
+        <item >Charsadda-3</item>
+        <item >Charsadda-4</item>
+        <item >Charsadda-5</item>
+        <item >Charsadda-6</item>
+     
+        
+    </string-array>
+    <string-array name="BA_tittle">
+        
+        <item >Quetta-1</item>
+        <item >Quetta-2</item>
+        <item >Quetta-3</item>
+        <item >Quetta-4</item>
+        <item >Quetta-5</item>
+        <item >Quetta-6</item>
+        <item >Ziarat</item>
+        <item >Pishin-1</item>
+        <item >Pishin-2</item>
+        <item >Pishin-3</item>
+        <item >Killa Abdullah-1</item>
+        <item >Killa Abdullah-2</item>
+        <item >Killa Abdullah-3</item>
+        <item >Loralai-1</item>
+        <item >Musakhel(old Loralai-2)</item>
+        <item >Loralai-2(old Loralai-3)</item>
+        <item >Barkhan(old Loralai-4)</item>
+        <item >Sherani-cum-Zhob(old Zohob-1)</item>
+        <item >Zohob(old Zohob-1)</item>
+        <item >Killa Saifullah</item>
+        <item >Sibi(old Sibi-1)</item>
+        <item >Hernai-cum-sibi</item>
+    </string-array>
+   	 
+
+
+ <!-- lIST OF THE CONSTITUENCY NAMES/TITTLES -->
+
+
+
+
+
+
+<!-- lIST OF THE CONSTITUENCY NUMBERING -->
+
+
+
+
+
+
+
+
+
+   
+       <string-array name="Na_Description">
+        
+        <item >NA-1</item>
+        <item >NA-2</item>
+        <item >NA-3</item>
+        <item >NA-4</item>
+        <item >NA-5</item>
+        <item >NA-6</item>
+        <item >NA-7</item>
+        <item >NA-8</item>
+        <item >NA-9</item>
+        <item >NA-10</item>
+        <item >NA-11</item>
+        <item >NA-12</item>
+        <item >NA-13</item>
+        <item >NA-14</item>
+        <item >NA-15</item>
+        <item >NA-16</item>
+        <item >NA-17</item>
+        <item >NA-18</item>
+        <item >NA-19</item>
+        <item >NA-20</item>
+        <item >NA-21</item>
+        <item >NA-22</item>
+        <item >NA-23</item>
+        <item >NA-24</item>
+        <item >NA-25</item>
+        <item >NA-26</item>
+        <item >NA-27</item>
+        <item >NA-28</item>
+        <item >NA-29</item>
+        <item >NA-30</item>
+        
+    </string-array>
+    
+        <string-array name="PA_Description">
+        <item >PP-1</item>
+        <item >PP-2</item>
+        <item >PP-3</item>
+        <item >PP-4</item>
+        <item >PP-5</item>
+        <item >PP-6</item>
+        <item >PP-7</item>
+        <item >PP-8</item>
+        <item >PP-9</item>
+        <item >PP-10</item>
+        <item >PP-11</item>
+        <item >PP-12</item>
+        <item >PP-13</item>
+        <item >PP-14</item>
+        <item >PP-15</item>
+        <item >PP-16</item>
+        <item >PP-17</item>
+        <item >PP-18</item>
+        <item >PP-19</item>
+        <item >PP-20</item>
+        <item >PP-21</item>
+        <item >PP-22</item>
+        <item >PP-23</item>
+        <item >PP-24</item>
+        <item >PP-25</item>
+        <item >PP-26</item>
+        <item >PP-27</item>
+        <item >PP-28</item>
+        <item >PP-29</item>
+        <item >PP-30</item>
+    </string-array>
+    
+    
+    <string-array name="SA_description">
+        <item >PS-1</item>
+        <item >PS-2</item>
+        <item >PS-3</item>
+        <item >PS-4</item>
+        <item >PS-5</item>
+        <item >PS-6</item>
+        <item >PS-7</item>
+        <item >PS-8</item>
+        <item >PS-9</item>
+        <item >PS-10</item>
+        <item >PS-11</item>
+        <item >PS-12</item>
+        <item >PS-13</item>
+        <item >PS-14</item>
+        <item >PS-15</item>
+        <item >PS-16</item>
+        <item >PS-17</item>
+        <item >PS-18</item>
+        <item >PS-19</item>
+        <item >PS-20</item>
+        <item >PS-21</item>
+        <item >PS-22</item>
+        <item >PS-23</item>
+        <item >PS-24</item>
+        <item >PS-25</item>
+        <item >PS-26</item>
+        <item >PS-27</item>
+        <item >PS-28</item>
+        <item >PS-29</item>
+        <item >PS-30</item>
+    </string-array>
+    <string-array name="KPK_description" >
+        <item >Pk-1</item>
+        <item >Pk-2</item>
+        <item >Pk-3</item>
+        <item >Pk-4</item>
+        <item >Pk-5</item>
+        <item >Pk-6</item>
+        <item >Pk-7</item>
+        <item >Pk-8</item>
+        <item >Pk-9</item>
+        <item >Pk-10</item>
+        <item >Pk-11</item>
+        <item >Pk-12</item>
+        <item >Pk-13</item>
+        <item >Pk-14</item>
+        <item >Pk-15</item>
+        <item >Pk-16</item>
+        <item >Pk-17</item>
+        <item >Pk-18</item>
+        <item >Pk-19</item>
+        <item >Pk-20</item>
+        <item >Pk-21</item>
+        <item >Pk-22</item>
+        <item >Pk-23</item>
+        <item >Pk-24</item>
+        <item >Pk-25</item>
+        <item >Pk-26</item>
+        <item >Pk-27</item>
+        <item >Pk-28</item>
+        <item >Pk-29</item>
+        <item >Pk-30</item>
+    </string-array>
+    <string-array name="BA_description">
+        <item >PB-1</item>
+        <item >PB-2</item>
+        <item >PB-3</item>
+        <item >PB-4</item>
+        <item >PB-5</item>
+        <item >PB-6</item>
+        <item >PB-7</item>
+        <item >PB-8</item>
+        <item >PB-9</item>
+        <item >PB-10</item>
+        <item >PB-11</item>
+        <item >PB-12</item>
+        <item >PB-13</item>
+        <item >PB-14</item>
+        <item >PB-15</item>
+        <item >PB-16</item>
+        <item >PB-17</item>
+        <item >PB-18</item>
+        <item >PB-19</item>
+        <item >PB-20</item>
+        <item >PB-21</item>
+        <item >PB-22</item>
+        <item >PB-23</item>
+        <item >PB-24</item>
+        <item >PB-25</item>
+        <item >PB-26</item>
+        <item >PB-27</item>
+        <item >PB-28</item>
+        <item >PB-29</item>
+        <item >PB-30</item>
+    </string-array>
+    
+          
+          
+          
+          <!--END OF lIST OF THE CONSTITUENCY NUMBERING --> 
+
+</resources>

@@ -1,0 +1,119 @@
+<GridLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="2"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:rowCount="5"
+    tools:context=".MainActivity"
+    style="@style/Layout_Style" >
+
+    
+     <Button
+        android:id="@+id/SearchConstituency"
+        android:layout_width="105dip"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_gravity="left|center_vertical"
+        android:layout_marginRight="70dip"
+android:layout_marginTop="150dip"        
+        android:layout_row="1"
+        android:text="Search Constituency" 
+        style="@style/Button_Style"/>"
+
+    <Button
+        android:id="@+id/Searchcandidate"
+        android:layout_height="wrap_content"
+        android:layout_width="105dip"   
+        android:layout_column="0"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_row="1"
+        android:text="Search Candidate" 
+        android:layout_marginLeft="70dip"
+        android:layout_marginTop="150dip"
+        android:layout_marginRight="1dip"
+        style="@style/Button_Style"
+        
+        />
+    
+    <Button
+        android:id="@+id/button_PA"
+        android:layout_width="105dip"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_gravity="left|center_vertical"
+        android:layout_marginRight="70dip"
+        android:layout_marginTop="1dip"
+        android:layout_row="2"
+        android:text="Punjab Assembly" 
+        style="@style/Button_Style"/>"
+
+    <Button
+        android:id="@+id/button_SA"
+        android:layout_height="wrap_content"
+        android:layout_width="105dip"   
+        android:layout_column="0"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_row="2"
+        android:text="Sindh Assembly" 
+        android:layout_marginLeft="70dip"
+        android:layout_marginTop="1dip"
+        android:layout_marginRight="1dip"
+        style="@style/Button_Style"
+        />
+
+     <Button
+         android:id="@+id/button_BA"
+         android:layout_width="105dip"
+         android:layout_height="wrap_content"  
+         android:layout_column="0"
+         android:layout_gravity="left|top"
+         android:layout_marginRight="1dip"
+         android:layout_marginLeft="70dip"
+         android:layout_marginTop="1dip"
+         android:layout_row="3"
+         android:text="Blochistan Assembly"
+         style="@style/Button_Style"
+          />
+
+     <Button
+         android:id="@+id/button_KPK"
+         android:layout_width="105dip"
+         android:layout_height="wrap_content"
+         android:layout_column="1"
+         android:layout_gravity="left|top"
+         android:layout_marginRight="70dip"
+         android:layout_marginTop="1dip"
+         android:layout_row="3"
+         android:text="KPk Assembly" 
+         style="@style/Button_Style"
+         />
+
+     <Button
+         android:id="@+id/button_NA"
+         style="@style/Button_Style"
+         android:layout_width="210dip"
+         android:layout_height="wrap_content"
+         android:layout_column="0"
+         android:layout_columnSpan="2"
+         android:layout_gravity="fill_horizontal|top"
+         android:layout_marginLeft="70dip"
+         android:layout_marginRight="70dip"
+         android:layout_marginTop="1dip"
+         android:layout_row="4"
+         android:text="National Assembly" />
+
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="15dp"
+        android:layout_row="1" />
+
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="15dp" />
+
+</GridLayout>

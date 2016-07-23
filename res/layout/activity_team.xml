@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+     xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#6E6E6E" >
+
+    <TextView
+        android:id="@+id/textView1"
+        style="@style/Textview_style"
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:text="THE DEVELPORS OF THIS APP"
+       
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="102dip"
+        android:layout_height="100dip"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dip"
+        android:scaleType="fitXY"
+        android:src="@drawable/ahsan" />
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="102dip"
+        android:layout_height="100dip"
+        android:layout_alignLeft="@+id/imageView3"
+        android:layout_centerVertical="true"
+        android:scaleType="fitXY"
+        android:layout_marginTop="20dip"
+        android:src="@drawable/taqi" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="102dip"
+        android:layout_height="100dp"
+        android:layout_alignLeft="@+id/imageView2"
+        android:layout_below="@+id/textView1"
+        android:scaleType="fitXY"
+        android:src="@drawable/maaz" />
+
+    <TextView
+           style="@style/Textview_style"
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView2"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="17dp"
+        android:layout_toRightOf="@+id/imageView2"
+        android:text="Sayed Taqi Hassan"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+           style="@style/Textview_style"
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="2dp"
+        android:text="taqi.official@gmail.com"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+           style="@style/Textview_style"
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_below="@+id/textView3"
+        android:layout_marginTop="2dp"
+        android:text="0345 5097679"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+        <TextView
+               style="@style/Textview_style"
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView1"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="17dp"
+        android:layout_toRightOf="@+id/imageView1"
+        android:text="Maaz Mohsin"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+           style="@style/Textview_style"
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_below="@+id/textView5"
+        android:layout_marginTop="2dp"
+        android:text="mz5881@gmail.com"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+           style="@style/Textview_style"
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView6"
+        android:layout_below="@+id/textView6"
+        android:text="0331 5791799"
+        android:layout_marginTop="2dip"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+           style="@style/Textview_style"
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_below="@+id/textView8"
+        android:layout_marginTop="2dp"
+        android:text="dani.jatt543@gmail.com"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+           style="@style/Textview_style"
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView6"
+        android:layout_below="@+id/textView9"
+        android:text="0331 5567230"
+        android:layout_marginTop="2dip"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+           style="@style/Textview_style"
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView9"
+        android:layout_alignTop="@+id/imageView3"
+        android:layout_marginTop="16dip"
+        android:text="Ahsan Aziz"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+</RelativeLayout>

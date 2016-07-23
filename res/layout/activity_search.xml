@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:columnCount="2"
+    android:rowCount="6"
+    android:background="#000000" >
+    
+    <EditText
+        android:id="@+id/editTextcon"
+        android:layout_width="246dp"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_marginRight="1dip"
+        android:layout_marginTop="1dip"
+        android:layout_row="1"
+        android:ems="10" 
+        android:textColor="#FFFFFF"
+        android:background="#888888">
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_column="0"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_row="2"
+        android:text="Search"
+        android:textColor="#FFFFFF" />
+
+    
+    <TextView
+         android:layout_marginTop="1dip"
+        android:id="@+id/textView1"
+        android:layout_column="0"
+        android:layout_gravity="left|bottom"
+        android:layout_row="3"
+        android:layout_columnSpan="2"
+        android:textColor="#FFFFFF"
+        android:text="Enter Candidate Name"
+        android:layout_marginLeft="50dip"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    <EditText
+        android:background="#888888"
+        android:id="@+id/editTextcand"
+        android:layout_width="246dp"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="left|top"
+        android:layout_row="4"
+        android:ems="10" />
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="78dp"
+        android:layout_height="36dp"
+        android:layout_column="0"
+        android:layout_gravity="right|top"
+        android:layout_row="4"
+        android:textColor="#FFFFFF"
+        android:text="Enter Like this NA88"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    <Button
+        android:id="@+id/buttoncand"
+        android:layout_column="0"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_row="5"
+        android:text="Search" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="78dp"
+        android:layout_height="36dp"
+        android:layout_column="1"
+        android:layout_gravity="right|top"
+        android:layout_row="1"
+        android:text="Enter Like this NA88"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_column="0"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_horizontal"
+        android:layout_marginLeft="50dip"
+        android:layout_marginTop="50dip"
+        android:layout_row="0"
+        android:text="Enter Constituency"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/buttoncon"
+        android:layout_column="0"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_row="2"
+        android:text="Search"
+        android:layout_columnSpan="2"
+        android:textColor="#FFFFFF" />
+
+</GridLayout>
